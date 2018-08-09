@@ -1,0 +1,4 @@
+#!/bin/bash
+
+[ $# -ne 1 ] && { echo "Usage: move-workspace left|right"; exit 1; }
+i3-msg move workspace to output $1
