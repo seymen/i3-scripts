@@ -1,4 +1,4 @@
 #!/bin/bash
 
 [ $# -ne 2 ] && { echo "Usage: rename-workspace 1 to \"1: foo\""; exit 1; }
-i3-msg "rename workspace \"$1\" to \"$2\""
+i3-msg 'rename workspace "'"$1"'" to "'"$2"'"'
